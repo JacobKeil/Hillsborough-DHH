@@ -28,13 +28,8 @@ a:hover {
   cursor: pointer;
 }
 
-.mapboxgl-popup {
-  height: 50px;
-  width: 800px;
-}
-
 .mapboxgl-popup-content {
-  height: 80px;
+  height: auto;
   width: 300px;
   color: #111111;
   text-align: center;
