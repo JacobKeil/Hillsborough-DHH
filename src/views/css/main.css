@@ -44,3 +44,15 @@ a:hover {
 .mapboxgl-popup-close-button {
   color: #111111;
 }
+
+/* COLORS */
+
+.yellow {
+  color: #d9ff00;
+}
+
+.red {
+  color: #c91212;
+}
+
+/* END COLORS */

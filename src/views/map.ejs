@@ -23,15 +23,15 @@
     ></script>
   </head>
   <body>
-    <h1 id="travel-logo"><a class="logo-a" href="index.html">AK</a></h1>
     <div id="map"></div>
 
     <script>
-      mapboxgl.accessToken = "<%= mapkey %>";
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoibnVjbGVhcmhpdG1hbiIsImEiOiJja2NjdjF4YnIwOG51MnJvYm5jMjg2YWdkIn0.P2o8iSKb6mGnOiBYH9SL2A";
 
       var map = new mapboxgl.Map({
         container: "map",
-        style: "<%= style %>",
+        style: "mapbox://styles/nuclearhitman/ckccz0hsd2sjq1ip5gnureeni",
         center: [-82.5, 28],
         zoom: 10,
       });
