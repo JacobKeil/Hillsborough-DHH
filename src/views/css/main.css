@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: all 0.25s ease-in-out;
+}
+
+a:hover {
+  color: #8e4b38;
+}
+
+.marker {
+  color: #d9ff00;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.mapboxgl-popup {
+  height: 50px;
+  width: 800px;
+}
+
+.mapboxgl-popup-content {
+  height: 80px;
+  width: 300px;
+  color: #111111;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.mapboxgl-popup-close-button {
+  color: #111111;
+}
