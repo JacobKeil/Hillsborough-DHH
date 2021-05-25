@@ -22,7 +22,7 @@ map.addControl(
         type: "Feature",
         geometry: {
           type: "Point",
-          coordinates: [-82.561, 28.002],
+          coordinates: [-82.562, 28.001],
         },
         properties: {
           title: "Town and Country Elementary School",
@@ -76,7 +76,7 @@ map.addControl(
       .setLngLat(marker.geometry.coordinates)
       .setPopup(
         new mapboxgl.Popup({ offset: 25 }) // add popups
-          .setHTML("<h3>" + marker.properties.title + "</h3><h4>" + marker.properties.description + "<h4>")
+          .setHTML("<h3>" + marker.properties.title + '</h3><i class="fas fa-directions"></i><a href="http://www.google.com/maps/place/' + marker.geometry.coordinates[1] + "," + marker.geometry.coordinates[0] + '">Directions<h4>')
       )
       .addTo(map);
   });

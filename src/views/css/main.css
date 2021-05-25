@@ -11,9 +11,8 @@ body {
 }
 
 a {
-  text-decoration: none;
+  font-size: 16px;
   color: black;
-  padding: 10px;
   transition: all 0.25s ease-in-out;
 }
 
@@ -37,6 +36,12 @@ a:hover {
 }
 
 .mapboxgl-popup-close-button {
+  color: #111111;
+}
+
+.fa-directions {
+  font-size: 20px;
+  padding-right: 7px;
   color: #111111;
 }
 
