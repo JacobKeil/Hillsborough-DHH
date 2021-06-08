@@ -87,7 +87,7 @@ const team1 = [
     {
       "Name": "Carrolwood",
       "Type": "Elementary",
-      "Coordinates": [28.0524809,-82.4996652]
+      "Coordinates": [28.052568019496583, -82.49943070727922]
     },
     {
       "Name": "Citrus Park",
