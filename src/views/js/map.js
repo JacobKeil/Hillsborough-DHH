@@ -87,7 +87,7 @@ const team1 = [
     {
       "Name": "Carrolwood",
       "Type": "Elementary",
-      "Coordinates": [28.052568019496583, -82.49943070727922]
+      "Coordinates": [28.0524809,-82.4996652]
     },
     {
       "Name": "Citrus Park",
@@ -328,7 +328,7 @@ console.log(team1geo.features[0].properties.title);
       .setLngLat(marker.geometry.coordinates)
       .setPopup(
         new mapboxgl.Popup({ offset: 25 }) // add popups
-          .setHTML("<h3>" + marker.properties.title + " " + marker.properties.description + ' School</h3><i class="fas fa-directions"></i><a href="http://www.google.com/maps/place/' + marker.geometry.coordinates[1] + "," + marker.geometry.coordinates[0] + '">Directions<h4>')
+          .setHTML("<h3>" + marker.properties.title + " " + marker.properties.description + ' School</h3><><i class="fas fa-directions"></i><a href="http://www.google.com/maps/place/' + marker.geometry.coordinates[1] + "," + marker.geometry.coordinates[0] + '">Directions<h4>')
       )
       .addTo(map);
   });
