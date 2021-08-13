@@ -32,7 +32,7 @@ a:hover {
   width: 300px;
   color: #111111;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .mapboxgl-popup-close-button {
@@ -53,6 +53,14 @@ a:hover {
 
 .red {
   color: #c91212;
+}
+
+.green {
+  color: #25cc49;
+}
+
+.blue {
+  color: #4394d6;
 }
 
 /* END COLORS */
