@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Travel</title>
+    <title>DHH</title>
     <meta
       name="viewport"
       content="initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -23,6 +23,23 @@
     ></script>
   </head>
   <body>
+    <div class="legend">
+      <p onclick="loadTeam('team1')" class="yellow title">Team 1</p>
+      <p onclick="loadTeam('team2')" class="red title">Team 2</p>
+      <p onclick="loadTeam('team3')" class="green title">Team 3</p>
+      <p onclick="loadTeam('team4')" class="blue title">Team 4</p>
+    </div>
+    <div id="overlay" class="overlay">
+      <i onclick="closeModal()" class="fas fa-reply exit"></i>
+      <h1 id="grid-title" style="color: #e2e2e2; text-align: center">TEAM</h1>
+      <input id="search" class="search" type="text" placeholder="Search..." />
+      <div id="school-grid" class="school-list">
+        <div class="school-card">
+          <h1 class="school-title">School</h1>
+          <button onclick="" class="button">View</button>
+        </div>
+      </div>
+    </div>
     <div id="map"></div>
 
     <script>
