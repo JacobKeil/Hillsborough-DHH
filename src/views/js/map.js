@@ -1410,8 +1410,8 @@ function loadTeam(team) {
     schoolGrid.innerHTML = '';
     team2.forEach((s) => {
       const markup = `
-      <div id="${s.Name} ${s.Type} School" class="school-card">
-        <h1 class="school-title">${s.Name} ${s.Type} School</h1>
+      <div class="school-card">
+        <h1 id="${s.Name} ${s.Type} School" class="school-title">${s.Name} ${s.Type} School</h1>
         <button onclick="closeAndZoom(${s.Coordinates})" class="button">View</button>
       </div>`;
 
@@ -1424,8 +1424,8 @@ function loadTeam(team) {
     schoolGrid.innerHTML = '';
     team3.forEach((s) => {
       const markup = `
-      <div id="${s.Name} ${s.Type} School" class="school-card">
-        <h1 class="school-title">${s.Name} ${s.Type} School</h1>
+      <div class="school-card">
+        <h1 id="${s.Name} ${s.Type} School" class="school-title">${s.Name} ${s.Type} School</h1>
         <button onclick="closeAndZoom(${s.Coordinates})" class="button">View</button>
       </div>`;
 
@@ -1438,8 +1438,8 @@ function loadTeam(team) {
     schoolGrid.innerHTML = '';
     team4.forEach((s) => {
       const markup = `
-      <div id="${s.Name} ${s.Type} School" class="school-card">
-        <h1 class="school-title">${s.Name} ${s.Type} School</h1>
+      <div class="school-card">
+        <h1 id="${s.Name} ${s.Type} School" class="school-title">${s.Name} ${s.Type} School</h1>
         <button onclick="closeAndZoom(${s.Coordinates})" class="button">View</button>
       </div>`;
 
@@ -1452,6 +1452,7 @@ function loadTeam(team) {
 function closeModal() {
   mapItem.style.display = 'block';
   overlay.style.display = 'none';
+  search.value = '';
 }
 
 function closeAndZoom(coord0, coord1) {
