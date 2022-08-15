@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-  font-family: 'Squada One', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -75,8 +75,8 @@ a:hover {
   color: #c91212;
 }
 
-.green {
-  color: #25cc49;
+.orange {
+  color: #e79324;
 }
 
 .blue {

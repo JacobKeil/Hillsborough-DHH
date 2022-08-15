@@ -6,66 +6,6 @@ let mapItem = document.getElementById('map');
 
 const team1 = [
   {
-    Name: 'Victory',
-    Type: 'Charter',
-    Coordinates: [28.077704088089266, -82.57699387306829],
-  },
-  {
-    Name: 'Henderson Hammock',
-    Type: 'Charter',
-    Coordinates: [28.043809580918783, -82.55102661402559],
-  },
-  {
-    Name: 'Hillsborough Math Science',
-    Type: 'Charter',
-    Coordinates: [28.030191953910794, -82.59674025672525],
-  },
-  {
-    Name: 'Horizon',
-    Type: 'Charter',
-    Coordinates: [27.99811516622201, -82.56213886594166],
-  },
-  {
-    Name: 'Learning Gate',
-    Type: 'Charter',
-    Coordinates: [28.103761661873296, -82.45030854411765],
-  },
-  {
-    Name: 'Legacy Prep',
-    Type: 'Charter',
-    Coordinates: [28.04026231679742, -82.45759448557814],
-  },
-  {
-    Name: 'Lutz Prep',
-    Type: 'Charter',
-    Coordinates: [28.132548731687752, -82.46261910969288],
-  },
-  {
-    Name: 'Plato Academy Tampa',
-    Type: 'Charter',
-    Coordinates: [28.079141246688014, -82.57232067367123],
-  },
-  {
-    Name: 'SLAM',
-    Type: 'Charter',
-    Coordinates: [28.068476604685337, -82.5708728487809],
-  },
-  {
-    Name: 'Sunlake Academy',
-    Type: 'Charter',
-    Coordinates: [28.143163761848662, -82.49462745919374],
-  },
-  {
-    Name: 'Trinity School',
-    Type: 'Charter',
-    Coordinates: [27.98771757555424, -82.48317006775433],
-  },
-  {
-    Name: 'Walton',
-    Type: 'Charter',
-    Coordinates: [27.989401299392114, -82.45924548942764],
-  },
-  {
     Name: 'Alexander',
     Type: 'Elementary',
     Coordinates: [27.998087052010014, -82.51418766635796],
@@ -91,7 +31,7 @@ const team1 = [
     Coordinates: [28.045645126047386, -82.53277800584948],
   },
   {
-    Name: 'Carrolwood',
+    Name: 'Carrollwood',
     Type: 'Elementary',
     Coordinates: [28.052568019496583, -82.49943070727922],
   },
@@ -141,7 +81,12 @@ const team1 = [
     Coordinates: [28.04203217475472, -82.46423290152347],
   },
   {
-    Name: 'Hammond ',
+    Name: 'Graham',
+    Type: 'Elementary',
+    Coordinates: [27.970162882833275, -82.46530886740737],
+  },
+  {
+    Name: 'Hammond',
     Type: 'Elementary',
     Coordinates: [28.11378694235735, -82.57416400152277],
   },
@@ -156,19 +101,14 @@ const team1 = [
     Coordinates: [28.03827793450622, -82.61220097268789],
   },
   {
-    Name: 'Lutz ',
-    Type: 'K-8',
-    Coordinates: [28.147810362667705, -82.45935597268691],
+    Name: 'Mabry',
+    Type: 'Elementary',
+    Coordinates: [27.92949479945438, -82.5149200512265],
   },
   {
     Name: 'MacFarlane Park',
     Type: 'Elementary',
     Coordinates: [27.9580667007821, -82.49283852278961],
-  },
-  {
-    Name: 'Maniscalco',
-    Type: 'K-8',
-    Coordinates: [28.12596981776297, -82.44784118580715],
   },
   {
     Name: 'McKitrick ',
@@ -191,7 +131,7 @@ const team1 = [
     Coordinates: [28.012932954532477, -82.5595090303594],
   },
   {
-    Name: 'Northwest ',
+    Name: 'Northwest',
     Type: 'Elementary',
     Coordinates: [28.105449840638464, -82.54868071277613],
   },
@@ -221,19 +161,29 @@ const team1 = [
     Coordinates: [28.029139726889124, -82.48803121335234],
   },
   {
-    Name: 'West Tampa',
-    Type: 'Elementary',
-    Coordinates: [27.96128964464151, -82.48757729499117],
-  },
-  {
     Name: 'Westchase',
     Type: 'Elementary',
     Coordinates: [28.04495886758262, -82.59258794542176],
   },
   {
+    Name: 'West Tampa',
+    Type: 'Elementary',
+    Coordinates: [27.96128964464151, -82.48757729499117],
+  },
+  {
     Name: 'Woodbridge',
     Type: 'Elementary',
     Coordinates: [28.014902809001338, -82.57558466991685],
+  },
+  {
+    Name: 'Lutz ',
+    Type: 'K-8',
+    Coordinates: [28.147810362667705, -82.45935597268691],
+  },
+  {
+    Name: 'Maniscalco',
+    Type: 'K-8',
+    Coordinates: [28.12596981776297, -82.44784118580715],
   },
   {
     Name: 'Roland Park',
@@ -254,6 +204,11 @@ const team1 = [
     Name: 'Buchanan',
     Type: 'Middle',
     Coordinates: [28.089454182638278, -82.46884490152303],
+  },
+  {
+    Name: 'Coleman',
+    Type: 'Middle',
+    Coordinates: [27.927588754982768, -82.51732900731696],
   },
   {
     Name: 'Davidsen',
@@ -290,57 +245,32 @@ const team1 = [
     Type: 'Middle',
     Coordinates: [28.002809182673506, -82.56087185919505],
   },
+  {
+    Name: 'Legacy Prep',
+    Type: 'Charter',
+    Coordinates: [28.04026231679742, -82.45759448557814],
+  },
+  {
+    Name: 'Sunlake Academy',
+    Type: 'Charter',
+    Coordinates: [28.143163761848662, -82.49462745919374],
+  },
+  {
+    Name: 'Walton',
+    Type: 'Charter',
+    Coordinates: [27.989401299392114, -82.45924548942764],
+  },
 ];
 const team2 = [
-  {
-    Name: 'Advantage Academy',
-    Type: 'Charter',
-    Coordinates: [28.001656223251857, -82.12361003208798],
-  },
-  {
-    Name: 'Excelsior Prep',
-    Type: 'Charter',
-    Coordinates: [28.058048666761078, -82.43570928409486],
-  },
-  {
-    Name: 'Independence Academy',
-    Type: 'Charter',
-    Coordinates: [28.017101441581037, -82.24378402575117],
-  },
-  {
-    Name: 'New Springs',
-    Type: 'Charter',
-    Coordinates: [28.03310229564066, -82.4318592622755],
-  },
-  {
-    Name: 'Terrace Community',
-    Type: 'Charter',
-    Coordinates: [28.048258131476413, -82.35065785038732],
-  },
-  {
-    Name: 'The Collaboratory',
-    Type: 'Charter',
-    Coordinates: [27.987523165612416, -82.38337745478067],
-  },
-  {
-    Name: 'Village of Excellence Academy',
-    Type: 'Charter',
-    Coordinates: [28.03036965544644, -82.41053687955899],
-  },
-  {
-    Name: 'Village of Excellence Middle',
-    Type: 'Charter',
-    Coordinates: [28.033006414230165, -82.4094486832285],
-  },
-  {
-    Name: 'Woodmont',
-    Type: 'Charter',
-    Coordinates: [28.04411665320489, -82.39448685969437],
-  },
   {
     Name: 'Bailey',
     Type: 'Elementary',
     Coordinates: [28.020374977864787, -82.23776911187674],
+  },
+  {
+    Name: 'Broward',
+    Type: 'Elementary',
+    Coordinates: [27.98820049904218, -82.46422600337173],
   },
   {
     Name: 'Bryan PC',
@@ -361,6 +291,11 @@ const team2 = [
     Name: 'Clark',
     Type: 'Elementary',
     Coordinates: [28.152153138011336, -82.36487471505242],
+  },
+  {
+    Name: 'Cleveland',
+    Type: 'Elementary',
+    Coordinates: [28.01388707020277, -82.45278373443188],
   },
   {
     Name: 'Cork',
@@ -418,6 +353,16 @@ const team2 = [
     Coordinates: [28.01298951609179, -82.11342507263858],
   },
   {
+    Name: 'Lopez',
+    Type: 'Elementary',
+    Coordinates: [27.99727350794786, -82.27893570356525],
+  },
+  {
+    Name: 'Mango',
+    Type: 'Elementary',
+    Coordinates: [27.983763855656417, -82.30350180623014],
+  },
+  {
     Name: 'McDonald',
     Type: 'Elementary',
     Coordinates: [28.023008806308244, -82.2856622142311],
@@ -433,9 +378,9 @@ const team2 = [
     Coordinates: [28.071927177050636, -82.43152142596396],
   },
   {
-    Name: 'Pizzo',
-    Type: 'K-8',
-    Coordinates: [28.05575975056244, -82.40447023522319],
+    Name: 'Potter',
+    Type: 'Elementary',
+    Coordinates: [27.987102047940713, -82.42367637752838],
   },
   {
     Name: 'Pride',
@@ -498,6 +443,11 @@ const team2 = [
     Coordinates: [28.046546391801357, -82.43389931858789],
   },
   {
+    Name: 'Pizzo',
+    Type: 'K-8',
+    Coordinates: [28.05575975056244, -82.40447023522319],
+  },
+  {
     Name: 'Sulphur Springs',
     Type: 'K8',
     Coordinates: [28.02676794293862, -82.4468128757475],
@@ -508,11 +458,6 @@ const team2 = [
     Coordinates: [28.167688542831804, -82.34838438319059],
   },
   {
-    Name: 'VanBuren (Cahoon)',
-    Type: 'K8',
-    Coordinates: [28.031063429309505, -82.43379492392073],
-  },
-  {
     Name: 'Benito',
     Type: 'Middle',
     Coordinates: [28.140974931699414, -82.32383817693676],
@@ -521,6 +466,11 @@ const team2 = [
     Name: 'Burnett',
     Type: 'Middle',
     Coordinates: [28.00815521047468, -82.2788414907341],
+  },
+  {
+    Name: 'Ferrell',
+    Type: 'Middle',
+    Coordinates: [27.984036056377185, -82.43308248282744],
   },
   {
     Name: 'Greco',
@@ -543,6 +493,11 @@ const team2 = [
     Coordinates: [28.015956161659684, -82.10797188874092],
   },
   {
+    Name: 'Memorial',
+    Type: 'Middle',
+    Coordinates: [27.98794579518015, -82.45663274738851],
+  },
+  {
     Name: 'Sligh',
     Type: 'Middle',
     Coordinates: [28.00953377392801, -82.43647174741068],
@@ -558,102 +513,22 @@ const team2 = [
     Coordinates: [27.99182935070803, -82.40694521065198],
   },
   {
-    Name: 'Idea Hope',
-    Type: '(K,2,6)',
-    Coordinates: [27.963855519808604, -82.3992496518996],
+    Name: 'New Springs',
+    Type: 'Charter',
+    Coordinates: [28.03310229564066, -82.4318592622755],
   },
   {
-    Name: 'Idea Victory',
-    Type: '(K,2,6)',
-    Coordinates: [28.05343133346382, -82.45342891024164],
+    Name: 'Village of Excellence Middle',
+    Type: 'Charter',
+    Coordinates: [28.033006414230165, -82.4094486832285],
   },
   {
-    Name: 'Broward',
-    Type: 'Elementary',
-    Coordinates: [27.98820049904218, -82.46422600337173],
-  },
-  {
-    Name: 'Cleveland',
-    Type: 'Elementary',
-    Coordinates: [28.01388707020277, -82.45278373443188],
-  },
-  {
-    Name: 'Memorial',
-    Type: 'Middle',
-    Coordinates: [27.98794579518015, -82.45663274738851],
+    Name: 'Woodmont',
+    Type: 'Charter',
+    Coordinates: [28.04411665320489, -82.39448685969437],
   },
 ];
 const team3 = [
-  {
-    Name: 'Bridgeprep Riverview',
-    Type: 'Charter',
-    Coordinates: [27.89038159410835, -82.33537851390018],
-  },
-  {
-    Name: 'Bridgeprep Tampa',
-    Type: 'Charter',
-    Coordinates: [27.936516265333708, -82.48468748247406],
-  },
-  {
-    Name: 'Creekside Academy',
-    Type: 'Charter',
-    Coordinates: [27.77571031219542, -82.33350523998895],
-  },
-  {
-    Name: 'East Tampa Academy',
-    Type: 'Charter',
-    Coordinates: [27.98478320437763, -82.42223383043104],
-  },
-  {
-    Name: "Kid's Community Riverview South",
-    Type: 'Charter',
-    Coordinates: [27.854267908596512, -82.33259874937181],
-  },
-  {
-    Name: 'LLT Academy',
-    Type: 'Charter',
-    Coordinates: [27.899905390156786, -82.37778259505629],
-  },
-  {
-    Name: 'Pepin Hillsborough',
-    Type: 'Charter',
-    Coordinates: [27.996557826798103, -82.4152266064085],
-  },
-  {
-    Name: 'Pepin Riverview',
-    Type: 'Charter',
-    Coordinates: [27.910784178565237, -82.35122257489054],
-  },
-  {
-    Name: 'RCMAAcademy',
-    Type: 'Charter',
-    Coordinates: [27.66307555213061, -82.36191349194856],
-  },
-  {
-    Name: 'Riverview Academy of Science',
-    Type: 'Charter',
-    Coordinates: [27.835887558257337, -82.34422016936325],
-  },
-  {
-    Name: 'SlamAcademyApollobeach',
-    Type: 'Charter',
-    Coordinates: [27.741124873432653, -82.4242945994195],
-  },
-  {
-    Name: 'SouthshoreCharter',
-    Type: 'Charter',
-    Coordinates: [27.795595016244736, -82.30107698005814],
-  },
-  {
-    Name: 'Waterset',
-    Type: 'Charter',
-    Coordinates: [27.776684217225185, -82.3857708512183],
-  },
-  {
-    Name: 'Winthrop Academy',
-    Type: 'Charter',
-    Coordinates: [27.806284316526042, -82.33176886039074],
-  },
   {
     Name: 'Anderson',
     Type: 'Elementary',
@@ -668,6 +543,11 @@ const team3 = [
     Name: 'Ballast Point',
     Type: 'Elementary',
     Coordinates: [27.889214233790252, -82.48787867918418],
+  },
+  {
+    Name: 'Belmont',
+    Type: 'Elementary',
+    Coordinates: [27.77259699260869, -82.34527662728203],
   },
   {
     Name: 'Bing',
@@ -755,11 +635,6 @@ const team3 = [
     Coordinates: [27.87694759421742, -82.5231666182211],
   },
   {
-    Name: 'Tampa Heights',
-    Type: 'Elementary',
-    Coordinates: [27.966584495533137, -82.45747120973164],
-  },
-  {
     Name: 'Lockhart',
     Type: 'Elementary',
     Coordinates: [27.979133281143753, -82.43898685937768],
@@ -768,11 +643,6 @@ const team3 = [
     Name: 'Lomax',
     Type: 'Elementary',
     Coordinates: [27.982555529946403, -82.42996633246462],
-  },
-  {
-    Name: 'Mabry',
-    Type: 'Elementary',
-    Coordinates: [27.92949479945438, -82.5149200512265],
   },
   {
     Name: 'Mitchell',
@@ -793,11 +663,6 @@ const team3 = [
     Name: 'Patricia Sullivan Partnership',
     Type: 'Elementary',
     Coordinates: [27.965296562643044, -82.45971026052773],
-  },
-  {
-    Name: 'Potter',
-    Type: 'Elementary',
-    Coordinates: [27.987102047940713, -82.42367637752838],
   },
   {
     Name: 'Riverview',
@@ -835,11 +700,6 @@ const team3 = [
     Coordinates: [27.86265294136755, -82.52656220154265],
   },
   {
-    Name: 'Coleman',
-    Type: 'Middle',
-    Coordinates: [27.927588754982768, -82.51732900731696],
-  },
-  {
     Name: 'Dowdell',
     Type: 'Middle',
     Coordinates: [27.936596597016518, -82.37172448206489],
@@ -848,11 +708,6 @@ const team3 = [
     Name: 'Eisenhower',
     Type: 'Middle',
     Coordinates: [27.793649892216987, -82.36559606210308],
-  },
-  {
-    Name: 'Ferrell',
-    Type: 'Middle',
-    Coordinates: [27.984036056377185, -82.43308248282744],
   },
   {
     Name: 'Franklin',
@@ -900,62 +755,32 @@ const team3 = [
     Coordinates: [27.98070009644412, -82.43874365756731],
   },
   {
-    Name: 'LLT Southbay K-8',
+    Name: "Kid's Community Riverview South",
     Type: 'Charter',
-    Coordinates: [27.726578042686413, -82.39247204150261],
+    Coordinates: [27.854267908596512, -82.33259874937181],
   },
   {
-    Name: 'Belmont',
-    Type: 'Elementary',
-    Coordinates: [27.77259699260869, -82.34527662728203],
+    Name: 'LLT Academy',
+    Type: 'Charter',
+    Coordinates: [27.899905390156786, -82.37778259505629],
+  },
+  {
+    Name: 'RCMA Academy',
+    Type: 'Charter',
+    Coordinates: [27.66307555213061, -82.36191349194856],
+  },
+  {
+    Name: 'Riverview Academy of Science',
+    Type: 'Charter',
+    Coordinates: [27.835887558257337, -82.34422016936325],
+  },
+  {
+    Name: 'Southshore Charter',
+    Type: 'Charter',
+    Coordinates: [27.795595016244736, -82.30107698005814],
   },
 ];
 const team4 = [
-  {
-    Name: 'Bell Creek Academy',
-    Type: 'Charter',
-    Coordinates: [27.852780380300675, -82.27224755949314],
-  },
-  {
-    Name: 'Kingswood',
-    Type: 'Elementary',
-    Coordinates: [27.898203081190974, -82.29610246587421],
-  },
-  {
-    Name: 'Channelside Academy',
-    Type: 'Charter',
-    Coordinates: [27.852758452567347, -82.2727215535481],
-  },
-  {
-    Name: "Kid's Community Southeast",
-    Type: 'Charter',
-    Coordinates: [27.830454355580812, -82.30320728417122],
-  },
-  {
-    Name: 'Navigator Academy of Leadership',
-    Type: 'Charter',
-    Coordinates: [27.891944248709528, -82.26663001780014],
-  },
-  {
-    Name: 'Pivot',
-    Type: 'Charter',
-    Coordinates: [27.919077828864136, -82.33749151474649],
-  },
-  {
-    Name: 'RCMA Wimauma',
-    Type: 'Charter',
-    Coordinates: [27.66308040971501, -82.36199214199979],
-  },
-  {
-    Name: 'Southshore',
-    Type: 'Charter',
-    Coordinates: [27.795582363338564, -82.30115518070586],
-  },
-  {
-    Name: 'Valrico Academy',
-    Type: 'Charter',
-    Coordinates: [27.854292001477607, -82.27092060877216],
-  },
   {
     Name: 'Alafia',
     Type: 'Elementary',
@@ -982,7 +807,7 @@ const team4 = [
     Coordinates: [27.914184684052913, -82.24110852649736],
   },
   {
-    Name: 'Cimino',
+    Name: 'Ciminio',
     Type: 'Elementary',
     Coordinates: [27.87469695497171, -82.24018088041983],
   },
@@ -1022,9 +847,9 @@ const team4 = [
     Coordinates: [27.939487724049815, -82.46701862729834],
   },
   {
-    Name: 'Graham',
+    Name: 'Kingswood',
     Type: 'Elementary',
-    Coordinates: [27.970162882833275, -82.46530886740737],
+    Coordinates: [27.898203081190974, -82.29610246587421],
   },
   {
     Name: 'Limona',
@@ -1037,16 +862,6 @@ const team4 = [
     Coordinates: [27.87770237671838, -82.22316286593909],
   },
   {
-    Name: 'Lopez',
-    Type: 'Elementary',
-    Coordinates: [27.99727350794786, -82.27893570356525],
-  },
-  {
-    Name: 'Mango',
-    Type: 'Elementary',
-    Coordinates: [27.983763855656417, -82.30350180623014],
-  },
-  {
     Name: 'Mintz',
     Type: 'Elementary',
     Coordinates: [27.915538223218306, -82.30763983130463],
@@ -1055,6 +870,11 @@ const team4 = [
     Name: 'Nelson',
     Type: 'Elementary',
     Coordinates: [27.907513934281152, -82.20434148763496],
+  },
+  {
+    Name: 'Shore',
+    Type: 'Elementary',
+    Coordinates: [27.957155188149336, -82.43747436917342],
   },
   {
     Name: 'Pinecrest',
@@ -1082,11 +902,6 @@ const team4 = [
     Coordinates: [27.966196030215407, -82.2759641664694],
   },
   {
-    Name: 'Shore',
-    Type: 'Elementary',
-    Coordinates: [27.957155188149336, -82.43747436917342],
-  },
-  {
     Name: 'Stowers',
     Type: 'Elementary',
     Coordinates: [27.848767260478073, -82.25784555768875],
@@ -1097,9 +912,9 @@ const team4 = [
     Coordinates: [27.80236715377213, -82.28898588574815],
   },
   {
-    Name: 'Summerfield Crossings',
+    Name: 'Symmes',
     Type: 'Elementary',
-    Coordinates: [27.800244306633715, -82.32319137175026],
+    Coordinates: [27.944101220798178, -82.17151352631265],
   },
   {
     Name: 'Trapnell',
@@ -1182,14 +997,24 @@ const team4 = [
     Coordinates: [27.937754901669944, -82.46996769644348],
   },
   {
-    Name: 'Symmes',
-    Type: 'Elementary',
-    Coordinates: [27.944101220798178, -82.17151352631265],
+    Name: 'Bell Creek Academy',
+    Type: 'Charter',
+    Coordinates: [27.852780380300675, -82.27224755949314],
   },
   {
-    Name: 'Sumner HS',
-    Type: 'Academy',
-    Coordinates: [27.77101617838525, -82.32707825965768],
+    Name: 'Channelside Academy',
+    Type: 'Charter',
+    Coordinates: [27.852758452567347, -82.2727215535481],
+  },
+  {
+    Name: 'Pivot',
+    Type: 'Charter',
+    Coordinates: [27.919077828864136, -82.33749151474649],
+  },
+  {
+    Name: 'Valrico Academy',
+    Type: 'Charter',
+    Coordinates: [27.854292001477607, -82.27092060877216],
   },
 ];
 
@@ -1340,7 +1165,7 @@ team2geo.features.forEach(function (marker) {
 
 team3geo.features.forEach(function (marker) {
   var el = document.createElement('div');
-  el.className = 'marker fas fa-map-marker-alt fa-2x green';
+  el.className = 'marker fas fa-map-marker-alt fa-2x orange';
 
   // make a marker for each feature and add to the map
   new mapboxgl.Marker(el, {
@@ -1464,7 +1289,7 @@ function closeAndZoom(coord0, coord1) {
 }
 
 function openModal() {
-  mapItem.style.display = 'none';
+  // mapItem.style.display = 'none';
   overlay.style.display = 'flex';
   overlay.style.flexDirection = 'column';
   overlay.style.alignItems = 'center';
