@@ -914,7 +914,7 @@ const team4 = [
   {
     Name: 'Symmes',
     Type: 'Elementary',
-    Coordinates: [27.944101220798178, -82.17151352631265],
+    Coordinates: [27.888796622672526, -82.30973885695525],
   },
   {
     Name: 'Trapnell',
@@ -1004,7 +1004,7 @@ const team4 = [
   {
     Name: 'Channelside Academy',
     Type: 'Charter',
-    Coordinates: [27.852758452567347, -82.2727215535481],
+    Coordinates: [27.951598705201107, -82.44972144073958],
   },
   {
     Name: 'Pivot',
